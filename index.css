@@ -1,0 +1,74 @@
+.container{
+    display:flex;
+    align-items: stretch;
+    display: grid;
+    grid-template-columns:35% 35% 32% ;
+    column-gap:20px;
+    row-gap: 20px;
+}
+.head{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.head1{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(138, 11, 43);
+}
+.head2{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(252, 244, 245);
+}
+.head3{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(11, 219, 219);
+}
+.subpara1{
+    color: rgb(113, 71, 7);
+    font-size: larger;
+}
+.subpara2{
+    color: rgb(141, 14, 14);
+    font-size: larger;
+}
+.subpara3{
+    color: rgb(155, 226, 12);
+    font-size:larger;
+}
+.para1{
+    background-color:rgb(15, 252, 15);
+    order:3;
+    border-left-style: double;
+    border:3px solid black ;
+}
+.para2{
+    background-color: rgb(233, 121, 194);
+    order:2;
+    border-left-style: double;
+    border:3px solid black ;
+}
+.para3{
+    background-color: rgb(184, 62, 62);
+    order:1;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: double;
+    border-bottom-style: double;
+    border:3px solid black ;
+}
+.image1:hover{
+    width:450px;
+    height:400px;
+    transition-duration: 2sec;
+}
+.image2:hover{
+    width:450px;
+    height:400px;
+}
+.image3:hover{
+    width:450px;
+    height:400px;
+}
